@@ -1,0 +1,414 @@
+* {
+  margin: 0px;
+  font-family: arial;
+}
+
+html {
+  scroll-behavior: smooth; /* This line enables smooth scrolling */
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #0f1111;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  height: 40px;
+  width: 100px;
+  margin-right: 0.85rem;
+  margin-left: 1rem;
+}
+
+.logo {
+  background-image: url(Amazon-Logo-PNG-HD-Quality.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 100px;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+/** box 2 **/
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+
+.add-second {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+}
+/** box 3 **/
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orange;
+  width: 600px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.nav-search:focus-within {
+  border: 2px solid orange;
+}
+.search-box:focus,
+.search-select:focus {
+  outline: none;
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  padding-left: 1px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-box {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  background-color: orange;
+  border: none;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/**box 4**/
+
+.nav-flag {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 65px;
+  background-color: transparent;
+}
+
+.search-arrow {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+}
+
+.us-image {
+  height: 16px;
+  width: 22px;
+  margin-bottom: 3px;
+}
+
+/** box 5 **/
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-second {
+  font: 0.85rem;
+  font-weight: 700;
+}
+
+.arrow {
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+/** box 6 **/
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/** Panel OPS **/
+
+.panel {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background-color: #222f3d;
+  color: #ffffff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: space;
+  justify-content: flex-start;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.panel-ops {
+  font-size: 14px;
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+/** Game-Centre Section**/
+
+.game-centre {
+  background-image: url(Game\ Centre\ image.jpg);
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.gamecentre-message {
+  height: 40px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.gamecentre-message a {
+  color: #007185;
+}
+
+/** Shopping box **/
+
+.shop-box {
+  background-color: #0f1111;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid black;
+  height: 420px;
+  width: 310px;
+  margin-top: 10px;
+  padding: 20px 0px 14px;
+}
+
+.gamebox {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+}
+
+.box-heading {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#shop-gaming {
+  color: #007185;
+  margin-top: 40px;
+  display: block;
+}
+
+/** Footer **/
+
+.back-panel {
+  height: 50px;
+  background-color: #37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  padding: 50px;
+  background-color: #232f3e;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-column a {
+  display: block;
+  color: #ddd;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-column {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-column {
+    width: 100%;
+  }
+}
+
+.footer-bottom {
+  background-color: #232f3e;
+  border-top: 1px solid #3a4553;
+  padding: 25px 0;
+}
+
+.footer-bottom-container {
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 25px;
+}
+
+.logo {
+  color: #fff;
+  position: relative;
+}
+
+/* Amazon smile */
+.logo::after {
+
+  position: absolute;
+  width: 45px;
+  height: 3px;
+  background-color: #ff9900;
+  left: 2px;
+  bottom: -6px;
+  border-radius: 50%;
+}
+
+.footer-options {
+  display: flex;
+  gap: 15px;
+}
+
+.option-box {
+  border: 1px solid #848688;
+  color: #ddd;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.option-box:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-bottom-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.amazon-footer {
+  background: linear-gradient(to bottom, #0f171e, #16202a);
+  padding: 30px 20px;
+  text-align: center;
+  color: #ddd;
+  margin-bottom: -24px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.ads-icon {
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #aaa;
+}

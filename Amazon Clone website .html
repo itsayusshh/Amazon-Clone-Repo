@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>AmazonClone.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="amazon website .css" />
+</head>
+<body>  
+    <header>
+      <div class="navbar">
+         <div class="nav-logo border">
+            <div class="logo"></div> 
+         </div>
+
+        <div class="nav-addres border" id="top">
+          <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+             <i class="fa-solid fa-location-dot"></i>
+        <p class="add-second">India</p>
+            </div>
+      </div>
+
+      <div class="nav-search">
+        <select class="search-select">
+            <option>All</option>
+        </select>
+        <input placeholder="Search Amazon" class="search-box" id="unique-name" >
+          <button onclick="search()" class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i></button> 
+        </div>
+
+      <span class="nav-flag border">
+        <img src="US Flag.webp" class="us-image">
+        <select class="search-arrow">
+          <option>EN</option>
+        </select>
+      </span>
+
+      <div class="nav-first border">
+        <p><span>Hello, sign in</span></p>
+          <p class="nav-second">Account & Lists
+        <select class="arrow"></select></p>
+      </div>
+
+       <div class="nav-first border">
+        <p><span>Return</span></p>
+          <p class="nav-second"> & Orders
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+
+
+      <div class="panel" >
+      <i class="fa-solid fa-bars" style="margin-left: 10px"> </i>
+        <div class="panel-ops">
+          <a href="X">Today's Deals</a>
+              <a href ="X">Registry</a>
+              <a href ="X">Prime Video</a>
+              <a href="X">Gift Cards</a>
+              <a href="X">Customer Service</a>
+              <a href="X">Sell</a>
+        </div>
+      </div>
+
+      <div class="game-centre">
+        <div class="gamecentre-message">
+        <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.<a href="https://www.amazon.in/"> Click here to go to amazon.in</a></p>
+      </div>
+      </div>
+      
+      <div class="shop-box">
+        <div class="box1 box">
+          <div class="box-heading">
+              <h2>Get your game on</h2>
+              <div class="gamebox" style="background-image: url(Fuji_Gaming_store_Dashboard_card_2x_EN._SY608_CB564799420_.jpg);"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">Shop gaming</a><p>                
+          </div>  
+        </div>
+        <div class="box2 box">
+          <div class="box-heading">
+              <h2>Shop for your home</h2>
+              <div class="gamebox" style="background-image: url(amazon-essential-moodboard-960x1440.webp);"></div>
+              <p><a href="" id="shop-gaming">Discover more in Home</a><p>                
+          </div>  
+        </div>
+        <div class="box3 box">
+          <div class="box-heading">
+              <h2>Fashion trends you like</h2>
+              <div class="gamebox" style="background-image: url(GRAPHICS-NEW-28-scaled.jpeg);"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">Explore more</a><p>                
+          </div>  
+        </div>
+        <div class="box4 box">
+          <div class="box-heading">
+              <h2>Save big on school</h2>
+              <div class="gamebox" style="background-image: url(stattionery.jpeg)"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">See More</a><p>                
+          </div>  
+        </div>
+        <div class="box5 box">
+          <div class="box-heading">
+              <h2>New home arrivals</h2>
+              <div class="gamebox" style="background-image: url(ECSG_NewArrivals_LivingRoom.webp);"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">Shop Latest for home</a><p>                
+          </div>  
+        </div>
+        <div class="box6 box">
+          <div class="box-heading">
+              <h2>Shop Fashion for less</h2>
+              <div class="gamebox" style="background-image: url(thrift.jpg);"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">See details</a><p>                
+          </div>  
+        </div>
+        <div class="box7 box">
+          <div class="box-heading">
+              <h2>Deals for every grade</h2>
+              <div class="gamebox" style="background-image: url(Fuji_SingleImageCard_BTS25_2x._SY608_CB789324272_.jpg);"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">See all details</a><p>                
+          </div>  
+        </div>
+        <div class="box8 box">
+          <div class="box-heading">
+              <h2>Kitchen appliances</h2>
+              <div class="gamebox" style="background-image: url(4_must_have_kitchen_app-_mobile.webp);"></div>
+              <p><a href="https://www.amazon.com/s?k=gaming&_encoding=UTF8&content-id=amzn1.sym.edf433e2-b6d4-408e-986d-75239a5ced10&pd_rd_r=32c33dda-125a-4fbe-99a0-219c70712b50&pd_rd_w=ngdry&pd_rd_wg=oWVlM&pf_rd_p=edf433e2-b6d4-408e-986d-75239a5ced10&pf_rd_r=J4W3AGSPCVMYB47S6YAD&ref=pd_hp_d_atf_unk" id="shop-gaming">Kitchen products</a><p>                
+          </div>  
+        </div>
+      </div>
+        
+        <footer>
+          <div class="back-panel" >
+            <p id="top" style="cursor: pointer;"><a href="#top">Back to top</a></p>
+          </div>
+         <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-column">
+        <h3 style="color: white;">Get to Know Us</h3>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relations</a>
+        <a>Amazon Devices</a>
+        <a>Amazon Science</a>
+      </div>
+
+      <div class="footer-column">
+        <h3 style="color: white;">Make Money with Us</h3>
+        <a>Sell products on Amazon</a>
+        <a>Sell on Amazon Business</a>
+        <a>Sell apps on Amazon</a>
+        <a>Become an Affiliate</a>
+        <a>Advertise Your Products</a>
+        <a>Self-Publish with Us</a>
+        <a>Host an Amazon Hub</a>
+        <a> See More Make Money with Us</a>
+      </div>
+
+      <div class="footer-column">
+        <h3 style="color: white;">Amazon Payment Products</h3>
+        <a>Amazon Business Card</a>
+        <a>Shop with Points</a>
+        <a>Reload Your Balance</a>
+        <a>Amazon Currency Converter</a>
+      </div>
+
+      <div class="footer-column">
+        <h3 style="color: white;">Let Us Help You</h3>
+        <a>Amazon and COVID-19</a>
+        <a>Your Account</a>
+        <a>Your Orders</a>
+        <a>Shipping Rates & Policies</a>
+        <a>Returns & Replacements</a>
+        <a>Manage Your Content and Devices</a>
+        <a>Help</a>
+      </div>
+
+    </div>
+  </footer>
+
+   <footer class="footer-bottom">
+    <div class="footer-bottom-container">
+
+      <!-- Amazon Logo -->
+      <div class="logo" alt="logo">
+      </div>
+
+      <!-- Options -->
+      <div class="footer-options">
+
+        <div class="option-box">
+          🌐 English
+        </div>
+
+        <div class="option-box">
+          ₹ INR - Indian Rupee
+        </div>
+
+        <div class="option-box">
+          🇺🇸 United States
+        </div>
+      </div>
+    </div>
+    <footer class="amazon-footer">
+  <div class="footer-links">
+    <a href="#">Conditions of Use</a>
+    <a href="#">Privacy Notice</a>
+    <a href="#">Consumer Health Data Privacy Disclosure</a>
+    <a href="#">Your Ads Privacy Choices</a>
+    <span class="ads-icon">✔</span>
+  </div>
+
+  <p class="copyright">
+    © 1996–2025, Amazon.com, Inc. or its affiliates
+  </p>
+</footer>
+
+
+
+    </body>
+</html>
