@@ -27,11 +27,12 @@ p:hover {
 }
 
 .logo {
-  background-image: url(Amazon-Logo-PNG-HD-Quality.png);
+  background-color: whitesmoke;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Cameo-Logo.png/1200px-Cameo-Logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 50px;
+  height: 40px;
   width: 100px;
 }
 
@@ -202,7 +203,6 @@ a {
   height: 40px;
   background-color: white;
   color: black;
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
@@ -331,7 +331,6 @@ a {
 
 /* Amazon smile */
 .logo::after {
-
   position: absolute;
   width: 45px;
   height: 3px;
